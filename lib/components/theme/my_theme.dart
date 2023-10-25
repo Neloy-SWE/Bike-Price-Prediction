@@ -25,6 +25,37 @@ class MyTheme {
         color: Colors.black,
         fontSize: 25,
       ),
+
+      titleMedium: TextStyle(
+        fontFamily: AppTexts.fontBold,
+        color: Colors.black,
+        fontSize: 15,
+      ),
+      bodyMedium: TextStyle(
+        fontFamily: AppTexts.fontRegular,
+        color: Colors.black,
+        fontSize: 13,
+      ),
+      bodySmall: TextStyle(
+        fontFamily: AppTexts.fontRegular,
+        color: Colors.black26,
+        fontSize: 13,
+      ),
+      titleSmall: TextStyle(
+        fontFamily: AppTexts.fontBold,
+        color: Colors.red,
+        fontSize: 11,
+      ),
+      titleLarge: TextStyle(
+        fontFamily: AppTexts.fontBold,
+        color: Colors.white,
+        fontSize: 13,
+      ),
+      displayLarge: TextStyle(
+        fontFamily: AppTexts.fontBold,
+        color: Colors.black,
+        fontSize: 20,
+      ),
     ),
   );
 }

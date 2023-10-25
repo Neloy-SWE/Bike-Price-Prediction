@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../utilities/image_path.dart';
 
 class MyLoader extends StatefulWidget {

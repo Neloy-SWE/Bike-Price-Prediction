@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:bike_price_prediction/screens/screen_home_page.dart';
 import 'package:bike_price_prediction/utilities/app_texts.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +16,20 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+
+  @override
+  void initState() {
+    super.initState();
+    Timer(const Duration(seconds: 3), () {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (builder) => const HomePage(),
+        ),
+      );
+    });
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
